@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+:root{
+    --amarelo:#F4C51B;
+    --preto:black;
+    --branco:white;
+
+    --mainFont: 'Montserrat', sans-serif;
+}
+
+header{
+    position: absolute;
+    width: 100%;
+
+}
+
+body{
+    
+    background-color: white;
+    margin: auto;
+}
+
+.hamburguerMenu{
+    position: absolute;
+    
+    font-size: 3em;
+
+    left: 84%;
+    top: 17px;
+}
+
+/* 
+*sessões da página inicial
+*/
+
+.firstSection,.secondSection{
+    width: 100%;
+    height: 50vh;
+
+    position: relative;
+    
+}
+
+
+/*
+* retangulo esquerdo amarelo  da página 
+*/
+
+.leftSquare{
+    width:152px ;
+    height: 100%;
+
+    position: absolute;
+    left: 13px;
+
+    background-color: var(--amarelo);
+}
+
+/*
+* retangulo com texto " portfólio", logo e pequenos quadrados à diretia  
+*/
+
+.portfolio{
+    width: 95%;
+    height: 188px;
+    
+
+    position: absolute;
+    left: 2.5%;
+    bottom: 0%;
+
+}
+
+.portfolio>p{
+    position: absolute;
+    bottom: 20px;
+    left: 17px;
+
+    font-family: var(--mainFont);
+    font-weight: 500;
+    font-size: 4em;
+    line-height: 0.8;
+    color: var(--preto);
+
+}
+
+
+
+.logoLinea{
+    width:78px ;
+    position: absolute;
+    left: 19px;
+    top: 10px;
+
+}
+
+
+/*pequenos quadrados na lateral direita da página*/
+
+.squaresSmall{
+    width:30px ;
+    position: absolute;
+    left: 90%;
+    bottom: 10px;
+}
+
+.lineSquareLeftTop{
+    position: absolute;
+    left: 11px;
+    top: 2px;
+    width: 37px;
+
+}
+.lineSquareRightBottom{
+    position: absolute;
+    left: 254px;
+    bottom: 10px;
+    width: 37px;
+
+    transform: rotate(180deg);
+}
+
+
+/* 
+*Quadrado com a palavra nossa arte 
+*/
+.nossaArteSquare{
+    width: 80% ;
+    height: 80%;
+    position: absolute;
+
+    top: 48%;
+    left: 52%;
+    transform: translate(-50%,-50%);
+    border: 2px solid var(--amarelo);
+
+    z-index: 999;
+    
+    
+
+}
+
+.textInsideSquare{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+   
+    color: rgba(255, 255, 255, 0);
+    font-family: var(--mainFont);
+    line-height: 0.8;
+
+    opacity: 40%;
+
+}
+
+
+/* detalhes das fontes */
+.nossa{
+    font-size: 5em;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--amarelo);
+    
+    
+}
+.arte{
+    font-size: 7.8em;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--amarelo);
+    
+}
+
+
+
+/* 
+*Slider com as imagens principais 
+*/
+
+.mainSliderShowContainer{
+    width: 80% ;
+    height: 80%;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.mainSliderShowContainer>img{
+    width: 100%;
+}
+
+
+
