@@ -36,15 +36,21 @@ body{
     margin: auto;
 }
 
-.hamburguerMenu{
+
+.containerHamburguer{
+    width: 60px;
+    height: 60px;
     position: absolute;
+    left: 82%;
+    top: 17px;
+    text-align: center;
+
+}
+.hamburguerMenu{
+    
     
     font-size: 3em;
 
-    left: 84%;
-    top: 17px;
-
-    
     animation: pulseAnimation var(--pulseAnimation) infinite, opacity01 var(--opacity01);
     
 }
@@ -148,7 +154,7 @@ body{
 }
 .lineSquareRightBottom{
     position: absolute;
-    left: 254px;
+    left: 280px;
     bottom: 10px;
     width: 37px;
 
@@ -158,63 +164,7 @@ body{
 }
 
 
-/* 
-*Quadrado com a palavra nossa arte 
-*/
-.nossaArteSquare{
-    width: 80% ;
-    height: 80%;
-    position: absolute;
 
-    top: 48%;
-    left: 52%;
-    transform: translate(-50%,-50%);
-    border: 3px solid var(--amarelo);
-
-    z-index: 999;
-
-    animation: opacity02 var(--opacity02);
-    
-    
-
-}
-
-.textInsideSquare{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
-   
-    color: rgba(255, 255, 255, 0);
-    font-family: var(--mainFont);
-    line-height: 0.8;
-
-    opacity: 40%;
-
-    animation: opacity02 var(--opacity02);
-
-}
-
-
-/* detalhes das fontes */
-.nossa{
-    font-size: 5em;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: var(--amarelo);
-
-    
-    
-    
-}
-.arte{
-    font-size: 7.8em;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: var(--amarelo);
-
-   
-    
-}
 
 
 
@@ -272,6 +222,22 @@ body{
     background-color: #717171;
   }
 
+
+  footer{
+    width: 100%;
+    text-align: center;
+    z-index: 999;
+    position: absolute;
+    bottom: 9px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: opacity02 var(--opacity02);
+  }
+
+  footer >p{
+    font-size: 0.8em;
+    color: gray;
+  }
 
 /*todas animações estão aqui */
 
