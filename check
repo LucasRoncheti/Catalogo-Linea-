@@ -1,7 +1,9 @@
-[] Favicon página 
+[x] Favicon página 
 [x] página 01 html / css
 [x] animações página 01
-[]página 02 html/css
-[] página 02 Js 
+
+[x]página 02 html/css
+[x] página 02 Js 
+[] adicionar local storage para salvar a sessão que está
 []página 02 lazy Loading
 []página 02 On loading  

@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+:root{
+    --amarelo:#F4C51B;
+    --preto:black;
+    --branco:white;
+
+    --mainFont: 'Montserrat', sans-serif;
+
+}
+
+
+/* Css do header inicia aqui */
+
+header{
+    width: 100%;
+    height: 78px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 23px;
+    background-color: var(--amarelo);
+    border-bottom: solid;
+}
+
+a{
+    color: var(--preto);
+}
+body{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 100vh;
+}
+
+
+.logoLinea{
+    width:78px;
+    height: 34px;
+    
+    
+}
+
+.containerHamburguer{
+    width: 60px;
+    height: 60px;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    
+
+}
+
+.containerHamburguer>a{
+   color: var(--preto);
+}
+.hamburguerMenu{
+    font-size: 2.5em;
+   
+}
+
+
+
+/* css do h2 "Nossos Produtos " inicia a aprtir daqui  */
+h2{
+    font-size: 2em;
+    padding: 0px 0px 1.5vh 0px ;
+}
+/* css do main inicia partir daqui */
+
+main{
+    text-align: center;
+    
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    z-index: 999;
+    
+   
+    left: 50%;
+    
+    animation: opacity02 var(--opacity02);
+   
+  }
+
+  footer >p{
+    font-size: 0.8em;
+    color: gray;
+  }
+
+ .link{
+    text-decoration: none;
+    color: rgb(22, 187, 224);
+  }
+
+
+
+

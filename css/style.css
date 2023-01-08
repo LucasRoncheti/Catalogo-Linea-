@@ -20,13 +20,17 @@
     --leftToRight : 3s;
     --pulseAnimation : 1.5s;
 
+}
 
-    
+
+a{
+    color: var(--preto);
 }
 
 header{
     position: absolute;
     width: 100%;
+    z-index: 9999;
 
 }
 
@@ -119,7 +123,7 @@ body{
 
 
 .logoLinea{
-    width:78px ;
+    width:88px ;
     position: absolute;
     left: 19px;
     top: 10px;
@@ -237,6 +241,11 @@ body{
   footer >p{
     font-size: 0.8em;
     color: gray;
+  }
+
+ footer> p>a{
+    text-decoration: none;
+    color: rgb(22, 187, 224);
   }
 
 /*todas animações estão aqui */

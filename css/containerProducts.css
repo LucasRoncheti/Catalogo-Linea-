@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+:root{
+    --amarelo:#F4C51B;
+    --preto:black;
+    --branco:white;
+
+    --mainFont: 'Montserrat', sans-serif;
+
+  
+
+}
+
+/* css onde estarão os produtos principais separados por categorias ex:"nail designer "*/
+
+.containerProductsMain{
+    width: 100vw;
+    height: 72.9vh;
+   
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.containerProducts{
+    overflow: auto;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.blockProducts{
+    width: 88%;
+    height: 78px;
+    margin: 0px auto 20px auto;
+    
+    padding: 10px 0px 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #efefef74;
+
+    
+    
+}
+
+.productsDetails{
+   text-align: left; 
+   line-height: 2.3em;
+   padding-right: 3px;
+   width: 82%;
+   
+}
+
+.productsDetails>h3{
+    font-size: 1.5em;
+}
+.productsDetails>p{
+    font-size: 0.8em;
+    line-height: 1.2em;
+}
+
+.imgProducts{
+    width: 78px;
+    height: 78px;
+    display: flex;
+   
+    overflow: hidden;
+}
+.imgProducts>img{
+    width: 78px;
+    height: 78px;
+    
+}
+
+.squareLeft,.squareRight{
+    width: 15px;
+    height: 100%;
+    background-color:var(--amarelo);
+
+}
